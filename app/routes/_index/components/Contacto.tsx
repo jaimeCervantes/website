@@ -39,7 +39,7 @@ const cardMail: PropsCardCotact = {
   urlImg: orangeEmail,
   isEmail: true,
   description: "Envíanos un correo para atenderte a la brevedad posible",
-  medio: "pensemoswebjs@gmail.com",
+  medio: "contacto@pensemosweb.com",
   icon: iconEmail,
   anchor: "/contacto",
 };

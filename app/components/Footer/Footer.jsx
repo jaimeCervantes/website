@@ -46,11 +46,11 @@ export default function Footer() {
               <h5 className="text-xs text-gray-100 font-bold uppercase mb-3">
                 Contacto
               </h5>
-              <ul className="text-sm space-y-4">
+              <ul className="text-sm space-y-4 break-all">
                 <li>
                   <LinkFooter
-                    title="pensemoswebjs@gmail.com"
-                    to="mailto:pensemoswebjs@gmail.com"
+                    title="contacto@pensemosweb.com"
+                    to="mailto:contacto@pensemosweb.com"
                     className="inline-flex gap-2 items-center"
                   >
                     <IconEmail />

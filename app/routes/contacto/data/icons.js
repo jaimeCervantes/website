@@ -12,9 +12,9 @@ export const iconsContact = [
   },
   {
     icon: email,
-    text: "pensemoswebjs@gmail.com",
+    text: "contacto@pensemosweb.com",
     altImage: "email",
-    href: "mailto:pensemoswebjs@gmail.com",
+    href: "mailto:contacto@pensemosweb.com",
   },
   {
     icon: iconWhatsapp,

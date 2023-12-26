@@ -78,8 +78,8 @@ export default function Nav(props: PropsNav) {
             </svg>
           </div>
           <span className="block mb-3 text-sm text-white">Escribenos a</span>
-          <Link className="font-semibold text-white" to="/contacto">
-            pensemoswebjs@gmail.com
+          <Link className="font-semibold text-white break-all" to="/contacto">
+            contacto@pensemosweb.com
           </Link>
         </div>
       </NavMobile>
