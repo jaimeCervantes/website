@@ -20,7 +20,7 @@ export default function Hero({
         alt={img.alt}
         className="absolute top-0 left-0 w-full h-[100vb] object-cover"
       />
-
+      <div className="absolute top-0 left-0 w-full h-[100vb] bg-black opacity-50"></div>
       <h1 className="absolute h-[100vb] text-white w-full max-xs:w-[100vi] xl:w-[100vi] flex justify-start sm:justify-center top-40 sm:top-0 items-start flex-col mx-auto">
         <span className="text-xl sm:text-3xl lg:text-4xl font-heading mb-0 sm:mb-1 lg:mb-4">
           <mark className="text-white bg-transparent p-2">{preText}</mark>

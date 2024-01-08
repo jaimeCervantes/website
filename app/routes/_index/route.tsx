@@ -22,7 +22,7 @@ import { getSeo } from "~/firebase/models/seo.server";
 export const meta = metaFn;
 const imageBanner = {
   src: videoPoster,
-  alt: "Fondo electronico con componetes y luces de colores tonalidades rosa y azul",
+  alt: "Fondo electrónico con componetes y luces de colores tonalidades rosa y azul",
 };
 
 export async function loader({ params }: LoaderArgs) {

@@ -14,7 +14,7 @@ import { AgileIcon } from "~/components/icons/Agile";
 import { LitIcon } from "~/components/icons/Lit";
 import { JiraIcon } from "~/components/icons/Jira";
 import { AngularIcon } from "~/components/icons/Angular";
-import {PlayWrightIcon} from "~/components/Icons/PlayWright";
+import { PlayWrightIcon } from "~/components/Icons/PlayWright";
 import { GitIcon } from "~/components/icons/Git";
 import { CypressIcon } from "~/components/icons/Cypress";
 import { FlutterIcon } from "~/components/icons/Flutter";
@@ -22,7 +22,7 @@ import { GithubIcon } from "~/components/icons/Github";
 import { Mongo } from "~/components/Icons/Mongo";
 export default function Lenguajes() {
   return (
-    <section id="lenguaje" className="bg-gray-900 2xl:py-24 2xl:bg-white">
+    <section id="lenguaje" className="bg-gray-900 2xl:py-24">
       <div className="px-4 mx-auto overflow-hidden bg-gray-900 max-w-7xl sm:px-6 lg:px-8">
         <div className="py-10 sm:py-16 lg:py-20 2xl:pl-24">
           <div
@@ -52,7 +52,7 @@ export default function Lenguajes() {
             <GitIcon />
             <ScrumIcon />
             <AgileIcon />
-            <PlayWrightIcon/>
+            <PlayWrightIcon />
             <FlutterIcon />
             <LitIcon />
             <RemixIcon />
