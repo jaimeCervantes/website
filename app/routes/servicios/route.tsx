@@ -20,7 +20,7 @@ export default function Servicios() {
   return (
     <>
       <HeroSection />
-      <section className={`py-5 bg-white sm:py-5 lg:py-20 `}>
+      <section className={`py-5 bg-white sm:py-5 lg:py-20 max-w-7xl mx-auto`}>
         <TePodemosAyudar />
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto mt-8 text-center lg:max-w-full lg:mt-16 lg:grid-cols-2">
           {services.map((service, index) => (
