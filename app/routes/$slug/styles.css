@@ -1,18 +1,3 @@
-.container-slug-blg {
-  color: rgb(200 200 200);
-}
-
-.slug-blog h1,
-.slug-blog h2,
-.slug-blog h3,
-.slug-blog h4,
-.slug-blog h5,
-.slug-blog h6 {
-  color: white;
-  margin-block-end: 2rem;
-  @apply font-bold;
-}
-
 .slug-blog {
   font-family:
     ui-sans-serif,
@@ -29,89 +14,91 @@
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
+
+  color: white;
+}
+
+.slug-blog h1,
+.slug-blog h2,
+.slug-blog h3,
+.slug-blog h4,
+.slug-blog h5,
+.slug-blog h6 {
+  color: white;
+  margin-block-end: 2rem;
+  @apply font-bold;
 }
 
 .slug-blog h1 {
-  font-size: 3.25rem;
-  line-height: 4rem;
-  margin-bottom: 3rem;
-  font-weight: 600;
+  @apply text-6xl;
 }
 
-.slug-blog .slug-blog-content h2 {
-  font-size: 2.2rem;
-  margin: 1.5rem 0;
+.slug-blog-content h2 {
+  @apply text-5xl;
 }
 
-.slug-blog .slug-blog-content h3 {
-  font-size: 1.6rem;
-  margin-bottom: 0.5rem;
+.slug-blog-content h3 {
+  @apply text-4xl;
 }
 
-@media (max-width: 767px) {
+.slug-blog-content h4 {
+  @apply text-3xl;
+}
+
+.slug-blog-content h5 {
+  @apply text-2xl;
+}
+
+.slug-blog-content h6 {
+  @apply text-xl;
+}
+
+@media (max-width: 768px) {
   .slug-blog h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 2rem;
+    @apply text-4xl;
   }
 
-  .slug-blog .slug-blog-content h2 {
-    font-size: 1.6rem;
-    margin-bottom: 1.2rem;
-    line-height: 1.4rem;
+  .slug-blog h2 {
+    @apply text-3xl;
   }
 
-  .slug-blog .slug-blog-content h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.2rem;
-    line-height: 1.2rem;
+  .slug-blog h3 {
+    @apply text-xl;
+  }
+
+  .slug-blog h4 {
+    @apply text-lg;
+  }
+
+  .slug-blog h5 {
+    @apply text-base font-bold;
+  }
+
+  .slug-blog h6 {
+    @apply text-base font-bold;
   }
 }
 
-.slug-blog .slug-blog-content p {
+.slug-blog-content p {
   font-size: 1.125rem;
   margin-bottom: 1rem;
   letter-spacing: 0.6px;
 }
 
-.slug-blog .slug-blog-content strong {
+.slug-blog-content strong {
   font-weight: 500;
 }
 
-.slug-blog .slug-blog-content ul {
+.slug-blog-content ul {
   font-size: 1.125rem;
   margin-bottom: 1rem;
   list-style: disc;
   padding-left: 28px;
 }
 
-.slug-blog .slug-blog-content li {
+.slug-blog-content li {
   font-size: 1.125rem;
   margin-bottom: 1rem;
-}
-
-@media (max-width: 767px) {
-  .slug-blog .slug-blog-content p {
-    font-size: medium;
-    margin-bottom: 0.8rem;
-    letter-spacing: normal;
-  }
-
-  .slug-blog .slug-blog-content ul {
-    font-size: medium;
-    padding-left: 28px;
-  }
-
-  .slug-blog .slug-blog-content li {
-    font-size: medium;
-    margin-bottom: 0.2rem;
-  }
-}
-
-@media (max-width: 425px) {
-  .slug-blog .slug-blog-content p {
-    text-align: justify;
-  }
 }
 
 .slug-blog code {
@@ -124,12 +111,6 @@
 .slug-blog pre code {
   padding: 1rem;
   margin-block: 3rem;
-}
-
-@media (max-width: 425px) {
-  .slug-blog code {
-    font-size: small;
-  }
 }
 
 .slug-blog-content iframe {
@@ -186,10 +167,8 @@
   height: 4px;
   transform-origin: center center;
   @apply hover:bg-gradient-pink hover:w-full motion-safe:transform motion-safe:duration-500;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .slug-blog-content a::after {
+  @media (prefers-reduced-motion: reduce) {
     transition:
       transform 0.5s ease-in-out,
       width 0.5s ease-in-out;

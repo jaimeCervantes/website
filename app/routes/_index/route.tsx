@@ -91,7 +91,7 @@ export default function Index() {
         <Servicios />
         <Principios hasParticles={true} />
         <Nosotros />
-        <Blogs posts={showPosts} />
+        {/* <Blogs posts={showPosts} /> */}
         <Contacto />
       </article>
     </>

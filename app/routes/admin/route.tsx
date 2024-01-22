@@ -15,7 +15,7 @@ export async function loader({ request }) {
 export default function Admin() {
   return (
     <>
-      <Nav items={[{ label: "Publicar", to: "/publicar" }]}>
+      <Nav items={[{ label: "Publicar", to: "/admin/publicar" }]}>
         <Form method="POST" action="/logout">
           <button
             type="submit"
